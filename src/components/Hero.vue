@@ -1,16 +1,15 @@
-
 <template>
-  <section>
-    <div class="hero">
-      <div class="hero__content">
+  <section class="hero">
+    <div class="hero-body">
+      <div class="container hero__content">
         <div class="left">
-          <h1>
+          <h1 class="title">
             More than just shorter links
           </h1>
-          <p>
+          <h2 class="subtitle">
             Build your brand’s recognition and get detailed insights
             on how your links are performing.
-          </p>
+          </h2>
           <button>Get Started</button>
         </div>
         <div class="right">
