@@ -27,6 +27,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+// come back to adjust this in accordance with sass
 .hero__content {
   display: flex;
 }
