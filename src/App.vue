@@ -41,6 +41,8 @@ export default {
   --color-darkBlue: hsl(255, 11%, 22%);
   --color-darkViolet: hsl(260, 8%, 14%);
   --color-white: rgba(255, 255, 255, 9.6);
+  --border: 6px;
+  --pill: 38px;
 }
 
 *,
