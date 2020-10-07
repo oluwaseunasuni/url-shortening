@@ -43,9 +43,23 @@ export default {
   --color-white: rgba(255, 255, 255, 9.6);
 }
 
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+}
+
 body {
+  font-size: 1.8rem;
   background-color: var(--color-white);
   font-family: 'Poppins', sans-serif;
+  font-weight: 500;
   color: var(--color-gray-1);
   width: 100%;
   overflow-x: hidden;
@@ -58,4 +72,34 @@ h4 {
   color: var(--color-darkViolet);
 }
 
+// UTILITY CLASSES
+.no-decoration {
+  text-decoration: none;
+}
+
+.button {
+  background: var(--color-primary);
+  padding: 1rem 3.5rem;
+  color: var(--color-white);
+  margin: 1rem auto;
+  font-weight: 700;
+  font-size: 2rem;
+  cursor: pointer;
+
+  &:hover {
+    background: var(--color-gray);
+  }
+}
+
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media only screen and(max-width: 37.5em) {
+  html {
+    font-size: 56.25%;
+  }
+}
 </style>

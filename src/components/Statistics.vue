@@ -78,7 +78,7 @@
         <h2>
           Boost your links today
         </h2>
-        <button>
+        <button class="button">
           Get Started
         </button>
       </div>

@@ -3,7 +3,7 @@
     <form action="">
       <div>
         <input type="text" name="" id="">
-        <button>
+        <button class="button">
           Shorten It!
         </button>
       </div>

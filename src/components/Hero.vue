@@ -10,7 +10,7 @@
             Build your brand’s recognition and get detailed insights
             on how your links are performing.
           </h2>
-          <button>Get Started</button>
+          <button class="button">Get Started</button>
         </div>
         <div class="right">
           <img src="@/assets/images/illustration-working.svg" alt="woking illustration">
