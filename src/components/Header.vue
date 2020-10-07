@@ -55,6 +55,22 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+.navbar {
+  margin: 1rem;
+
+}
+
+.navbar-brand {
+  padding: 2rem 0;
+}
+
+.navbar-menu {
+  margin: 1rem 3rem;
+}
+
+.navbar-start {
+
+}
 
 li {
   text-decoration: none;
